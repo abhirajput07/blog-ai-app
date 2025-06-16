@@ -4,7 +4,7 @@ import { assets } from "../assets/assets";
 const Header = () => {
   return (
     <>
-      <div className="relative ]">
+      <div className="relative ">
         <div className="text-center mt-10 mb-8 px-[5%] sm:px-[3%]">
           <div className="inline-flex items-center justify-center gap-4 px-5 py-1.5 bg-primary/10 border border-primary rounded-full text-sm text-primary mb-4">
             <p>New: AI feature integrated</p>
@@ -37,7 +37,7 @@ const Header = () => {
         <img
           src={assets.gradientBackground}
           alt=""
-          className="absolute md:-top-50 -top-20 opacity-50 -z-1 mx-auto object-cover object-center"
+          className="absolute md:-top-50 -top-20 opacity-50 -z-1  object-cover object-center"
         />
       </div>
     </>
