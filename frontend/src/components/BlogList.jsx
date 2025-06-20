@@ -6,7 +6,7 @@ const BlogList = () => {
   const [menu, setMenu] = useState("All");
   return (
     <>
-      <div className="max-w-7xl mx-auto px-[5%] sm:px-[3%]">
+      <div className="max-w-7xl mx-auto px-[2%] xl:px-0">
         <div className="flex justify-center gap-4 sm:gap-8 my-10 relative ">
           {blogCategories.map((item) => (
             <div key={item} className="relative">

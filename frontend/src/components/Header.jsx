@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <>
       <div className="relative ">
-        <div className="text-center mt-10 mb-8 px-[5%] sm:px-[3%]">
+        <div className="text-center mt-10 mb-8  px-[2%] xl:px-0">
           <div className="inline-flex items-center justify-center gap-4 px-5 py-1.5 bg-primary/10 border border-primary rounded-full text-sm text-primary mb-4">
             <p>New: AI feature integrated</p>
             <img src={assets.star_icon} alt="staricon" className="w-2.5" />

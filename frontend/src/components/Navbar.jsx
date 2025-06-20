@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <>
       <div className="w-full">
-        <div className="max-w-7xl mx-auto flex justify-between items-center py-5 px-[5%] sm:px-[3%] cursor-pointer ">
+        <div className="max-w-7xl mx-auto flex justify-between items-center py-5  px-[2%] xl:px-0  cursor-pointer ">
           <img
             src={assets.logo}
             alt="logo"
@@ -18,7 +18,7 @@ const Navbar = () => {
           <button
             className="bg-primary flex items-center gap-2 rounded-full text-white px-7 py-2.5 cursor-pointer text-sm"
             onClick={() => {
-              navigate("/blog");
+              navigate("/admin");
             }}
           >
             Login
